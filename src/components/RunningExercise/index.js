@@ -35,7 +35,7 @@ export default class Stopwatch extends Component { //The stopwatch function also
         const { isRunning, lapTimes, timeElapsed } = this.state;
         return (
             <div>
-                <h1>React Stopwatch</h1>
+                <h1>Running</h1>
                 <TimeElapsed id="timer" timeElapsed={timeElapsed} />
                 <button onClick={this.toggle}>
                     {isRunning ? 'Stop' : 'Start'}
